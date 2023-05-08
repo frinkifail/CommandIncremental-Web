@@ -1,10 +1,13 @@
 function e(element) {return document.getElementById(element);};
-function pagechange(page) {
-    e("root").innerHTML = '<h2 class=busy>Busy loading: ' + page + "!</h2>";
-    switch (page) {
+function pagechange() {
+    e("root").innerHTML = '<h2 class=busy>Busy loading: ' + data.current_page + "!</h2>";
+    switch (data.current_page) {
         case "home":
             e('root').innerHTML = `
 <h1> hai welcome to home </h1>
+<div id="coin-container">
+    <p id=coins-display>Loading</p>
+</div>
             `;
             break;
         case "shop":

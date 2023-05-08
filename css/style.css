@@ -1,7 +1,10 @@
 :root {
     --fg-dark-error60: #FF5449;
     --fg-dark-surface: #CFC4C5;
+    --fg-dark-surface-variant: #D5C2C6;
     --bg-dark-surface: #171213;
+    --bg-dark-surface-variant: #514347;
+    overflow: hidden;
 }
 body {
     color: var(--fg-dark-surface);
@@ -10,4 +13,16 @@ body {
 }
 h2.busy {
     color: var(--fg-dark-error60);
+}
+#coin-container {
+    position: absolute;
+    right: 0;
+    background-color: var(--bg-dark-surface-variant);
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    color: var(--fg-dark-surface-variant);
+    padding-left: 50px;
+}
+#coins-display {
+    padding-right: 30px;
 }
