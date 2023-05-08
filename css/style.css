@@ -1,0 +1,13 @@
+:root {
+    --fg-dark-error60: #FF5449;
+    --fg-dark-surface: #CFC4C5;
+    --bg-dark-surface: #171213;
+}
+body {
+    color: var(--fg-dark-surface);
+    background-color: var(--bg-dark-surface);
+    font-family: 'Gotham SSm', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2.busy {
+    color: var(--fg-dark-error60);
+}
