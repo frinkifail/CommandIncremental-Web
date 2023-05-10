@@ -36,5 +36,7 @@ h2.busy {
 }
 .coin {
     padding: 20px;
-    background-color: var(--fg-dark-background);
+    background-color: gold;
+    border-radius: 300px;
+    color: var(--bg-dark-background);
 }

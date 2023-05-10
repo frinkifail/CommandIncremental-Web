@@ -17,8 +17,9 @@ function createCoin() {
         data.coins += 50;
         coin.remove(); // Remove the coin element after it's clicked
     };
+    coin.textContent = '$';
     document.body.appendChild(coin);
 }
 
-// Call the createCoin function every 5 seconds
-setInterval(createCoin, 5000);
+// Call the createCoin function every 10 seconds
+setInterval(createCoin, 10000);
