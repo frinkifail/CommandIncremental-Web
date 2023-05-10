@@ -5,8 +5,11 @@ function pagechange() {
         case "home":
             e('root').innerHTML = `
 <h1> hai welcome to home </h1>
-<div id="coin-container">
-    <p id=coins-display>Loading</p>
+<div class=ls-container>
+    <p class=i-display>Coins: <span id=coins-display>Loading</span></p>
+</div>
+<div class=ls-container id=d-container>
+    <p class=i-display>Diamonds: <span id=diamonds-display>Loading</span></p>
 </div>
             `;
             break;

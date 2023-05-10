@@ -16,7 +16,7 @@ body {
 h2.busy {
     color: var(--fg-dark-error60);
 }
-#coin-container {
+.ls-container {
     position: absolute;
     right: 0;
     background-color: var(--bg-dark-surface-variant);
@@ -25,6 +25,12 @@ h2.busy {
     color: var(--fg-dark-surface-variant);
     padding-left: 50px;
 }
-#coins-display {
+#c-container {
+    top: 15%;
+}
+#d-container {
+    top: 25%;
+}
+.i-display {
     padding-right: 30px;
 }

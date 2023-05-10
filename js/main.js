@@ -10,9 +10,12 @@ function abbreviateNumber(number) {
 
 const dev_add_interval = setInterval(function () {
     data.coins += 10;
+    data.diamonds += 1;
 }, 200)
 const update_interval = setInterval(function () {
     if (e('coins-display')) {
         e('coins-display').textContent = abbreviateNumber(data.coins);
+    } if (e('diamonds-display')) {
+        e('diamonds-display').textContent = abbreviateNumber(data.diamonds);
     }
 }, 50)
