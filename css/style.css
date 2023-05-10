@@ -34,3 +34,7 @@ h2.busy {
 .i-display {
     padding-right: 30px;
 }
+.coin {
+    padding: 20px;
+    background-color: var(--fg-dark-background);
+}
