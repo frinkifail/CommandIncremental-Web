@@ -20,5 +20,5 @@ function createCoin() {
     document.body.appendChild(coin);
 }
 
-// Call the createCoin function every 45 seconds
-setInterval(createCoin, 45000);
+// Call the createCoin function every 10 seconds
+setInterval(createCoin, 10000);
