@@ -36,7 +36,30 @@ h2.busy {
 }
 .coin {
     padding: 20px;
-    background-color: gold;
+    background-color: rgb(255, 232, 103);
     border-radius: 300px;
     color: var(--bg-dark-background);
+}
+nav {
+    background: var(--bg-dark-surface-variant);
+    color: var(--fg-dark-surface-variant);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav > button, h3 {
+    margin-left: 10px;
+    display: inline;
+}
+nav > button {
+    border-radius: 4px;
+    background: var(--bg-dark-surface);
+    color: var(--fg-dark-surface);
+    font-family: inherit;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 0px solid var(--fg-dark-error60);
+}
+nav > button:hover {
+    border-bottom-width: 2.5px;
 }
